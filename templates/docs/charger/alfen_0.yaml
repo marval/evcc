@@ -13,5 +13,5 @@ render:
       # Modbus TCP
       modbus: tcp
       id: 1
-      host: 192.0.2.2 # Hostname
+      host: 192.0.2.2 # Hostname / IP-Adresse
       port: 502 # Port

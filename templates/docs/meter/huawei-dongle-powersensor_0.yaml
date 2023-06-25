@@ -11,7 +11,7 @@ render:
       # Modbus TCP
       modbus: tcp
       id: 1
-      host: 192.0.2.2 # Hostname
+      host: 192.0.2.2 # Hostname / IP-Adresse
       port: 502 # Port
     advanced: |
       type: template
@@ -22,7 +22,7 @@ render:
       # Modbus TCP
       modbus: tcp
       id: 1
-      host: 192.0.2.2 # Hostname
+      host: 192.0.2.2 # Hostname / IP-Adresse
       port: 502 # Port
       timeout: 15s # Optional
   - usage: pv
@@ -34,7 +34,7 @@ render:
       # Modbus TCP
       modbus: tcp
       id: 1
-      host: 192.0.2.2 # Hostname
+      host: 192.0.2.2 # Hostname / IP-Adresse
       port: 502 # Port
     advanced: |
       type: template
@@ -45,7 +45,7 @@ render:
       # Modbus TCP
       modbus: tcp
       id: 1
-      host: 192.0.2.2 # Hostname
+      host: 192.0.2.2 # Hostname / IP-Adresse
       port: 502 # Port
       timeout: 15s # Optional
   - usage: battery
@@ -57,7 +57,7 @@ render:
       # Modbus TCP
       modbus: tcp
       id: 1
-      host: 192.0.2.2 # Hostname
+      host: 192.0.2.2 # Hostname / IP-Adresse
       port: 502 # Port
     advanced: |
       type: template
@@ -68,7 +68,7 @@ render:
       # Modbus TCP
       modbus: tcp
       id: 1
-      host: 192.0.2.2 # Hostname
+      host: 192.0.2.2 # Hostname / IP-Adresse
       port: 502 # Port
       timeout: 15s # Optional
       capacity: 50 # Akkukapazität in kWh (Optional)

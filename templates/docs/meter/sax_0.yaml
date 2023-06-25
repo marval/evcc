@@ -11,7 +11,7 @@ render:
       # Modbus TCP
       modbus: tcp
       id: 64
-      host: 192.0.2.2 # Hostname
+      host: 192.0.2.2 # Hostname / IP-Adresse
       port: 3600 # Port
   - usage: battery
     default: |
@@ -22,5 +22,5 @@ render:
       # Modbus TCP
       modbus: tcp
       id: 64
-      host: 192.0.2.2 # Hostname
+      host: 192.0.2.2 # Hostname / IP-Adresse
       port: 3600 # Port

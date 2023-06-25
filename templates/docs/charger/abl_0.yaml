@@ -11,12 +11,12 @@ render:
       # Attached to local serial interface (Modbus ASCII)
       modbus: ascii
       id: 1
-      device: /dev/ttyUSB0 # Geräteadresse, typische Werte sind /dev/ttyUSB0, /dev/ttyAMA0, /dev/ttyS0 oder COM3
+      device: /dev/ttyUSB0 # Schnittstellenname, typische Werte sind /dev/ttyUSB0, /dev/ttyAMA0, /dev/ttyS0 oder COM3
       baudrate: 38400 # Baudrate, typische Werte sind 9600, 19200, 38400, 57600, 115200
       comset: 8E1 # Parität, Datenbits, Stoppbits, typische Werte sind 8N1, 8E1, 8O1
 
       # Attached to transparent serial device server (Modbus ASCII over TCP/IP)
       modbus: ascii-over-tcpip
       id: 1
-      host: 192.0.2.2 # Hostname
+      host: 192.0.2.2 # Hostname / IP-Adresse
       port: 502 # Port
