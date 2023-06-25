@@ -9,3 +9,9 @@ render:
       type: template
       template: kostal-ksem-inverter
       usage: grid
+
+      # Modbus TCP
+      modbus: tcp
+      id: 71
+      host: 192.0.2.2 # Hostname
+      port: 1502 # Port

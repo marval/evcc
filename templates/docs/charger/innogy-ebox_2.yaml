@@ -7,3 +7,9 @@ render:
   - default: |
       type: template
       template: innogy-ebox
+
+      # Modbus TCP
+      modbus: tcp
+      id: 1
+      host: 192.0.2.2 # Hostname
+      port: 502 # Port

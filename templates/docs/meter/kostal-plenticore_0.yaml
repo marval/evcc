@@ -7,17 +7,41 @@ render:
       type: template
       template: kostal-plenticore
       usage: pv
+
+      # Modbus TCP
+      modbus: tcp
+      id: 71
+      host: 192.0.2.2 # Hostname
+      port: 1502 # Port
     advanced: |
       type: template
       template: kostal-plenticore
       usage: pv
+
+      # Modbus TCP
+      modbus: tcp
+      id: 71
+      host: 192.0.2.2 # Hostname
+      port: 1502 # Port
   - usage: battery
     default: |
       type: template
       template: kostal-plenticore
       usage: battery
+
+      # Modbus TCP
+      modbus: tcp
+      id: 71
+      host: 192.0.2.2 # Hostname
+      port: 1502 # Port
     advanced: |
       type: template
       template: kostal-plenticore
       usage: battery
+
+      # Modbus TCP
+      modbus: tcp
+      id: 71
+      host: 192.0.2.2 # Hostname
+      port: 1502 # Port
       capacity: 50 # Akkukapazität in kWh (Optional)

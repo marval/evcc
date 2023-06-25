@@ -9,3 +9,9 @@ render:
   - default: |
       type: template
       template: keba-modbus
+
+      # Modbus TCP
+      modbus: tcp
+      id: 255
+      host: 192.0.2.2 # Hostname
+      port: 502 # Port

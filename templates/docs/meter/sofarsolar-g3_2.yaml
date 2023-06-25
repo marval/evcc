@@ -8,15 +8,15 @@ render:
       template: sofarsolar-g3
       usage: grid
 
-      # Attached on local serial port (Modbus RTU)
-      modbus: rtu
+      # Attached to local serial interface (Modbus RTU)
+      modbus: rtuserial
       id: 1
       device: /dev/ttyUSB0 # Geräteadresse, typische Werte sind /dev/ttyUSB0, /dev/ttyAMA0, /dev/ttyS0 oder COM3
       baudrate: 9600 # Baudrate, typische Werte sind 9600, 19200, 38400, 57600, 115200
       comset: 8N1 # Parität, Datenbits, Stoppbits, typische Werte sind 8N1, 8E1, 8O1
 
       # Attached to transparent serial device server (Modbus RTU over TCP/IP)
-      modbus: rtu-over-tcp
+      modbus: rtutcp
       id: 1
       host: 192.0.2.2 # Hostname
       port: 502 # Port
@@ -32,15 +32,15 @@ render:
       template: sofarsolar-g3
       usage: grid
 
-      # Attached on local serial port (Modbus RTU)
-      modbus: rtu
+      # Attached to local serial interface (Modbus RTU)
+      modbus: rtuserial
       id: 1
       device: /dev/ttyUSB0 # Geräteadresse, typische Werte sind /dev/ttyUSB0, /dev/ttyAMA0, /dev/ttyS0 oder COM3
       baudrate: 9600 # Baudrate, typische Werte sind 9600, 19200, 38400, 57600, 115200
       comset: 8N1 # Parität, Datenbits, Stoppbits, typische Werte sind 8N1, 8E1, 8O1
 
       # Attached to transparent serial device server (Modbus RTU over TCP/IP)
-      modbus: rtu-over-tcp
+      modbus: rtutcp
       id: 1
       host: 192.0.2.2 # Hostname
       port: 502 # Port
@@ -57,15 +57,15 @@ render:
       template: sofarsolar-g3
       usage: pv
 
-      # Attached on local serial port (Modbus RTU)
-      modbus: rtu
+      # Attached to local serial interface (Modbus RTU)
+      modbus: rtuserial
       id: 1
       device: /dev/ttyUSB0 # Geräteadresse, typische Werte sind /dev/ttyUSB0, /dev/ttyAMA0, /dev/ttyS0 oder COM3
       baudrate: 9600 # Baudrate, typische Werte sind 9600, 19200, 38400, 57600, 115200
       comset: 8N1 # Parität, Datenbits, Stoppbits, typische Werte sind 8N1, 8E1, 8O1
 
       # Attached to transparent serial device server (Modbus RTU over TCP/IP)
-      modbus: rtu-over-tcp
+      modbus: rtutcp
       id: 1
       host: 192.0.2.2 # Hostname
       port: 502 # Port
@@ -81,15 +81,15 @@ render:
       template: sofarsolar-g3
       usage: pv
 
-      # Attached on local serial port (Modbus RTU)
-      modbus: rtu
+      # Attached to local serial interface (Modbus RTU)
+      modbus: rtuserial
       id: 1
       device: /dev/ttyUSB0 # Geräteadresse, typische Werte sind /dev/ttyUSB0, /dev/ttyAMA0, /dev/ttyS0 oder COM3
       baudrate: 9600 # Baudrate, typische Werte sind 9600, 19200, 38400, 57600, 115200
       comset: 8N1 # Parität, Datenbits, Stoppbits, typische Werte sind 8N1, 8E1, 8O1
 
       # Attached to transparent serial device server (Modbus RTU over TCP/IP)
-      modbus: rtu-over-tcp
+      modbus: rtutcp
       id: 1
       host: 192.0.2.2 # Hostname
       port: 502 # Port
@@ -106,15 +106,15 @@ render:
       template: sofarsolar-g3
       usage: battery
 
-      # Attached on local serial port (Modbus RTU)
-      modbus: rtu
+      # Attached to local serial interface (Modbus RTU)
+      modbus: rtuserial
       id: 1
       device: /dev/ttyUSB0 # Geräteadresse, typische Werte sind /dev/ttyUSB0, /dev/ttyAMA0, /dev/ttyS0 oder COM3
       baudrate: 9600 # Baudrate, typische Werte sind 9600, 19200, 38400, 57600, 115200
       comset: 8N1 # Parität, Datenbits, Stoppbits, typische Werte sind 8N1, 8E1, 8O1
 
       # Attached to transparent serial device server (Modbus RTU over TCP/IP)
-      modbus: rtu-over-tcp
+      modbus: rtutcp
       id: 1
       host: 192.0.2.2 # Hostname
       port: 502 # Port
@@ -130,15 +130,15 @@ render:
       template: sofarsolar-g3
       usage: battery
 
-      # Attached on local serial port (Modbus RTU)
-      modbus: rtu
+      # Attached to local serial interface (Modbus RTU)
+      modbus: rtuserial
       id: 1
       device: /dev/ttyUSB0 # Geräteadresse, typische Werte sind /dev/ttyUSB0, /dev/ttyAMA0, /dev/ttyS0 oder COM3
       baudrate: 9600 # Baudrate, typische Werte sind 9600, 19200, 38400, 57600, 115200
       comset: 8N1 # Parität, Datenbits, Stoppbits, typische Werte sind 8N1, 8E1, 8O1
 
       # Attached to transparent serial device server (Modbus RTU over TCP/IP)
-      modbus: rtu-over-tcp
+      modbus: rtutcp
       id: 1
       host: 192.0.2.2 # Hostname
       port: 502 # Port
